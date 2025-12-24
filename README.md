@@ -244,9 +244,8 @@ What gets me excited? Building **self-operating systems** that reduce manual wor
 
 <br><br>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AdanChain/AdanChain/output/pacman-contribution-graph-dark.svg?v=2">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AdanChain/AdanChain/output/pacman-contribution-graph.svg?v=2">
-    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/AdanChain/AdanChain/output/pacman-contribution-graph-dark.svg?v=2">
+    ![Pacman Graph](https://raw.githubusercontent.com/AdanChain/AdanChain/main/output/pacman-contribution-graph.svg)
+![Pacman Graph](https://raw.githubusercontent.com/AdanChain/AdanChain/main/output/pacman-contribution-graph-dark.svg)
   </picture>
 </div>
 
