@@ -188,7 +188,6 @@ What gets me excited? Building **self-operating systems** that reduce manual wor
 
 <details>
 <summary><strong>View Impact Details</strong></summary>
-
 - 🎯 Designed multiple dApps for **DeFi analytics & staking platforms**
 - ⛽ **Reduced gas costs by 22%** through smart contract optimization
 -🤖 Embedded GPT-4 automation saving **15 hours/week** of manual effort
