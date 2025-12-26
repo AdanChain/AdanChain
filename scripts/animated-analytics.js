@@ -2,12 +2,31 @@ import fs from "fs";
 import fetch from "node-fetch";
 
 const token = process.env.GITHUB_TOKEN;
+if (!token) {
+  console.error("Error: GITHUB_TOKEN environment variable is not set");
+  process.exit(1);
+}
+
 const headers = { Authorization: `token ${token}` };
 
 const res = await fetch("https://api.github.com/user/repos?per_page=100", {
   headers
 });
+
+if (!res.ok) {
+  const error = await res.json().catch(() => ({ message: res.statusText }));
+  console.error(`Error fetching repos: ${res.status} ${res.statusText}`);
+  console.error(error);
+  process.exit(1);
+}
+
 const repos = await res.json();
+
+if (!Array.isArray(repos)) {
+  console.error("Error: Expected array of repos, got:", typeof repos);
+  console.error(repos);
+  process.exit(1);
+}
 
 // Count languages
 const langs = {};
