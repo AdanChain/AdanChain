@@ -1,0 +1,32 @@
+name: Animated GitHub Analytics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  analytics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install deps
+        run: npm install node-fetch
+
+      - name: Generate animated SVG
+        run: node scripts/animated-analytics.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit & Push
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "Update animated analytics"
+          add: "analytics"

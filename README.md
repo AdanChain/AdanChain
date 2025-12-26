@@ -242,6 +242,8 @@ What gets me excited? Building **self-operating systems** that reduce manual wor
 
 <img src="https://komarev.com/ghpvc/?username=adriancole0327&label=Profile%20Views&color=79c0ff&style=flat-square&labelColor=0d1117 " alt="Profile views" />
 
+### 📊 Animated GitHub Analytics
+![Languages](./analytics/languages-animated.svg)
 
 <p align="center">
   <picture>
