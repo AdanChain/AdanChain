@@ -23,11 +23,11 @@
   <a href="https://www.linkedin.com/in/adrian-cole-257b5039a/">
     <img src="https://img.shields.io/badge/💼%20LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1a1a" alt="LinkedIn" />
   </a>
-  <a href="https://discordapp.com/users/adriancole0082">
-    <img src="https://img.shields.io/badge/💬%20Discord-adriancole0082-7289DA?style=for-the-badge&logo=discord&logoColor=white&labelColor=1a1a1a" alt="Discord" />
+  <a href="https://discordapp.com/users/adriancole0327">
+    <img src="https://img.shields.io/badge/💬%20Discord-adriancole0327-7289DA?style=for-the-badge&logo=discord&logoColor=white&labelColor=1a1a1a" alt="Discord" />
   </a>
-  <a href="https://t.me/GOD_SMILE_O_O">
-    <img src="https://img.shields.io/badge/📱%20Telegram-@GOD_SMILE_O_O-0088CC?style=for-the-badge&logo=telegram&logoColor=white&labelColor=1a1a1a" alt="Telegram" />
+  <a href="https://t.me/adriancole0327">
+    <img src="https://img.shields.io/badge/📱%20Telegram-@adriancole0327-0088CC?style=for-the-badge&logo=telegram&logoColor=white&labelColor=1a1a1a" alt="Telegram" />
   </a>
 </p>
 
