@@ -23,7 +23,8 @@ jobs:
       - name: Generate animated SVG
         run: node scripts/animated-analytics.js
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: AdanChain
+          GITHUB_TOKEN_1: ${{ secrets.GITHUB_TOKEN_1 }}
 
       - name: Commit & Push
         uses: EndBug/add-and-commit@v9
